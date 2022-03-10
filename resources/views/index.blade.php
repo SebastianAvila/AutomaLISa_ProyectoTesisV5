@@ -16,7 +16,8 @@
     <!-- bootstrap css -->
     <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="../resources/css/style.css">
+    <!-- <link rel="stylesheet" href="../resources/css/style.css"> -->
+    <link rel="stylesheet" href="{{secure_asset('../resources/css/style.css')}}   ">
     <!-- Animation Css Effectt  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Responsive-->
