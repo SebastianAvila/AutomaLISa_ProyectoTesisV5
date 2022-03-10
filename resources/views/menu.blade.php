@@ -16,7 +16,7 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- style css -->
-    <link rel="stylesheet" href="../resources/css/menu-style.css">
+    <link rel="stylesheet" href="assets/css/menu-style.css">
     <!-- Animation Css Effectt  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -29,7 +29,7 @@
         <nav class="navbar">
             <div class="header">
                 <a href="index">
-                    <img src="../resources/images/logoEditado.png" alt="AutomaLISa">
+                    <img src="assets/images/logoEditado.png" alt="AutomaLISa">
                 </a>
             </div>
         </nav>
@@ -114,9 +114,9 @@
     
 
     <!-- Javascript files-->
-    <script src="../resources/js/jquery.min.js"></script>
-    <script src="../resources/js/jquery-3.6.0.min.js"></script>
-    <script src="../resources/js/plugin.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- js animation css -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

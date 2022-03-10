@@ -14,18 +14,18 @@
     <meta name="description" content="AutomaLisa">
     <meta name="author" content="Sebastian Avila">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="~/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- style css -->
     <!-- <link rel="stylesheet" href="../resources/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.css  ">
     <!-- Animation Css Effectt  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Responsive-->
-    <link rel="stylesheet" href="../resources/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- fevicon -->
-    <link rel="icon" href="../resources/images/favicon.png" type="image/gif" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="../resources/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-md-8" data-aos="fade-left" data-aos-duration="2500"   data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                     <div class="text-img">
-                        <figure><img src="../resources/images/ImgFront1.png" alt="#" /></figure>
+                        <figure><img src="assets/images/ImgFront1.png" alt="#" /></figure>
                     </div>
 
                 </div>
@@ -116,21 +116,21 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="we_do_box">
-                        <i><img class="imgInBlack" src="../resources/images/tesisImg.png" alt="#" /></i>
+                        <i><img class="imgInBlack" src="assets/images/tesisImg.png" alt="#" /></i>
                         <h4>Proyecto de Tesis</h4>
                         <p>Automa<span>LIS</span>a nace de un proyecto de tesis para poder ayudar a estudiantes de la licenciatura en ingenieria de software en el tema de automatas finitos </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="we_do_box">
-                        <i><img src="../resources/images/learning.png" alt="#" /></i>
+                        <i><img src="assets/images/learning.png" alt="#" /></i>
                         <h4>Aprendizaje</h4>
                         <p>Ese software busca ayudar a estudiantes de carrera afines a la computacion con el tema de los automatas finitos asi como operaciones sencillas relacionadas al tema </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="we_do_box">
-                        <i><img class="imgInBlack" src="../resources/images/experienceImg.png" alt="#" /></i>
+                        <i><img class="imgInBlack" src="assets/images/experienceImg.png" alt="#" /></i>
                         <h4>Experiencia</h4>
                         <p> El desarrolllo de este sistema tambien busca aportar experiencia tanto al desarrollador como a las personas al momento de estudiar el tema principal</p>
                     </div>
@@ -216,14 +216,14 @@
     </footer>
     <!-- end footer -->
     <!-- Javascript files-->
-    <script src="../resources/js/jquery.min.js"></script>
-    <script src="../resources/js/popper.min.js"></script>
-    <script src="../resources/js/bootstrap.bundle.min.js"></script>
-    <script src="../resources/js/jquery-3.0.0.min.js"></script>
-    <script src="../resources/js/plugin.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/plugin.js"></script>
     <!-- sidebar -->
-    <script src="../resources/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="../resources/js/custom.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <!-- js animation css -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
