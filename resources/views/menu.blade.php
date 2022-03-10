@@ -110,7 +110,7 @@
 
     </div>
 
-<a href="index"> <input type="button" value="index" ></a>
+<a href="index"> <input type="button" value="index :v" ></a>
     
 
     <!-- Javascript files-->
