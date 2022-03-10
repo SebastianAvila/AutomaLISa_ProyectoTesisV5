@@ -53,6 +53,6 @@ $kernel = $app->make(Kernel::class);
 // )->send();
 $response = $kernel->handle(
     $request = App\Custom\Http\Request::capture()
-);
+)->send();
 
 $kernel->terminate($request, $response);
