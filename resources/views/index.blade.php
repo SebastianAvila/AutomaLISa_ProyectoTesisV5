@@ -14,10 +14,10 @@
     <meta name="description" content="AutomaLisa">
     <meta name="author" content="Sebastian Avila">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="{{ secure_asset('~/resources/css/bootstrap.min.css') }} ">
+    <link rel="stylesheet" href="~/resources/css/bootstrap.min.css">
     <!-- style css -->
     <!-- <link rel="stylesheet" href="../resources/css/style.css"> -->
-    <link rel="stylesheet" href="{{secure_asset('~/resources/css/style.css')}}   ">
+    <link rel="stylesheet" href="assets/css/style.css  ">
     <!-- Animation Css Effectt  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Responsive-->
@@ -33,7 +33,7 @@
 </head>
 
 
-
+ 
 <!-- body -->
 
 <body class="main-layout">
@@ -47,7 +47,7 @@
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href=""><img src=" ~/resources/images/logoEditado.png" alt="#" /></a>
+                                    <a href=""><img src="assets/images/logoEditado.png" alt="#" /></a>
                                 </div>
                             </div>
                         </div>
