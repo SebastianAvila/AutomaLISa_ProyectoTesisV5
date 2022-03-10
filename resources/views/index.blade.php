@@ -14,7 +14,7 @@
     <meta name="description" content="AutomaLisa">
     <meta name="author" content="Sebastian Avila">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ secure_asset('../resources/css/bootstrap.min.css') }} ">
     <!-- style css -->
     <!-- <link rel="stylesheet" href="../resources/css/style.css"> -->
     <link rel="stylesheet" href="{{secure_asset('../resources/css/style.css')}}   ">
