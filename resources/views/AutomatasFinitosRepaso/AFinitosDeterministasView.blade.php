@@ -35,7 +35,7 @@
         <div id="main-wrapper">
             <section id="main">
                 <header id="nodeDecoration">
-                    <h1 id="nodeTitle">Automatas Deterministas</h1>
+                    <h1 id="nodeTitle">Automatas Deterministas d</h1>
                 </header>
                 <article class="iDevice_wrapper textIdevice" id="id1">
                     <div class="iDevice emphasis0">
