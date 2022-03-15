@@ -2,28 +2,22 @@
 <html lang="en">
 
 <head>
-    <!-- basic -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!-- site metas -->
-    <title>AutomaLISa</title>
-    <meta name="keywords" content="Finite Automata">
-    <meta name="description" content="AutomaLisa">
-    <meta name="author" content="Sebastian Avila">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/df8066961b.js" crossorigin="anonymous"></script>
     <!-- style css -->
     <link rel="stylesheet" href="assets/css/menu-style.css">
-    <!-- Animation Css Effectt  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
+    <title>Menu</title>
 </head>
 
 <body>
+
+
     <!-- header -->
     <header>
         <nav class="navbar">
@@ -35,20 +29,23 @@
         </nav>
     </header>
     <!-- end header -->
-    <div class="center shadow-lg p-3">
 
+    <div class="center">
         <div class="text">
             <p class="texto">Bienvenido a AutomaLISa, aqui podras repasar, practicar y evaluar tus conocimientos </p>
             <p class="texto">Sobre los automatas finitos y sus operaciones</p>
             <p class="texto">Haz click en alguna de las opciones de abajo</p>
         </div>
+    </div>
 
-        <div class="dropdown-section " data-aos="zoom-out" data-aos-duration="2000">
+
+    <div>
+        <div class="dropdown-section ">
 
             <div class="dropdown-area repaso">
 
 
-                <button class="btn dropdown-toggle shadow-lg p-3  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Repasar Temas
                 </button>
 
@@ -64,7 +61,7 @@
 
             <div class="dropdown-area practicas">
 
-                <button class="btn dropdown-toggle shadow-lg p-3 " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Practicas
                 </button>
 
@@ -79,7 +76,7 @@
 
             <div class="dropdown-area examen">
 
-                <button class="btn dropdown-toggle shadow-lg p-3 " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Examenes
                 </button>
 
@@ -94,7 +91,7 @@
 
             <div class="dropdown-area creditos">
 
-                <button class="btn dropdown-toggle shadow-lg p-3 " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Extras
                 </button>
 
@@ -105,25 +102,46 @@
                 </ul>
 
             </div>
-
         </div>
-
     </div>
 
-<a href="index"> <input type="button" value="index :v" ></a>
-    
 
-    <!-- Javascript files-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/plugin.js"></script>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- js animation css -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- ejecuta el script de animacion  -->
-    <script>
-        AOS.init();
-    </script>
+
 </body>
 
 </html>

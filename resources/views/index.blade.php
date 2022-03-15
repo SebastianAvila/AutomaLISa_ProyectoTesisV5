@@ -14,26 +14,19 @@
     <meta name="description" content="AutomaLisa">
     <meta name="author" content="Sebastian Avila">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- style css -->
-    <!-- <link rel="stylesheet" href="../resources/css/style.css"> -->
     <link rel="stylesheet" href="assets/css/style.css  ">
     <!-- Animation Css Effectt  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Responsive-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- fevicon -->
-    <link rel="icon" href="assets/images/favicon.png" type="image/gif" />
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
-    <!-- Tweaks for older IEs-->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-    
+    <!-- icon fon aweasome -->
+    <script src="https://kit.fontawesome.com/df8066961b.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 
- 
+
 <!-- body -->
 
 <body class="main-layout">
@@ -80,7 +73,7 @@
     <section class="banner_main">
         <div class="container">
             <div class="row d_flex">
-                <div class="col-md-4" data-aos="fade-right"  data-aos-duration="2500"    data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="2500" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                     <div class="text-bg">
                         <h1>Learn <br>
                             Better <br>
@@ -91,7 +84,7 @@
                         <a href="MenuSeleccion ">Empezar</a>
                     </div>
                 </div>
-                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2500"   data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2500" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
                     <div class="text-img">
                         <figure><img src="assets/images/ImgFront1.png" alt="#" /></figure>
                     </div>
@@ -103,7 +96,7 @@
     <!-- end banner -->
     <!-- we_do -->
     <div id="we_do" class="we_do">
-        <div class="container" data-aos="zoom-in"  data-aos-duration="2000">
+        <div class="container" data-aos="zoom-in" data-aos-duration="2000">
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
@@ -141,8 +134,7 @@
     <!-- end we_do -->
 
     <!-- contact -->
-    <div id="contact" class="contact" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" >
+    <div id="contact" class="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -188,7 +180,7 @@
     <!-- end contact -->
 
     <!--  footer -->
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -213,8 +205,43 @@
                 </div>
             </div>
         </div>
+    </footer> -->
+    <!-- end footer---->
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
     </footer>
-    <!-- end footer -->
     <!-- Javascript files-->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
