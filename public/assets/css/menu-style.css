@@ -53,6 +53,7 @@ body {
 
 @media (max-width: 800px) { .dropdown-section {
     flex-direction: column;
+
     text-align: center;
 }
  }
@@ -77,8 +78,9 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 100%;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
   }
