@@ -32,9 +32,9 @@
 
     <div class="center">
         <div class="text">
-            <p class="texto">Bienvenido a AutomaLISa, aqui podras repasar, practicar y evaluar tus conocimientos </p>
-            <p class="texto">Sobre los automatas finitos y sus operaciones</p>
-            <p class="texto">Haz click en alguna de las opciones de abajo</p>
+            <p class="texto">Bienvenido a AutomaLISa, aqui podras aprender, practicar y evaluar tus conocimientos </p>
+            <p class="texto"> sobre los automatas finitos y sus operaciones</p>
+            <p class="texto">Haz click en alguna de las opciones de abajo para empezar</p>
         </div>
     </div>
 
@@ -46,7 +46,7 @@
 
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Repasar Temas
+                    Teoria
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -62,14 +62,14 @@
             <div class="dropdown-area practicas">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Practicas
+                    Ejemplos
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="#">Automatas Finitos </a></li>
-                    <li><a class="dropdown-item" href="#">Practica 1: Automatas Finitos Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Practica 2: Autoamtas Finitos No Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Practica 3: Operaciones con automatas</a></li>
+                    <li><a class="dropdown-item" href="#">Ejemplos 1: Automatas Finitos Deterministas</a></li>
+                    <li><a class="dropdown-item" href="#">Ejemplos 2: Autoamtas Finitos No Deterministas</a></li>
+                    <li><a class="dropdown-item" href="#">Ejemplos 3: Operaciones con automatas</a></li>
                 </ul>
 
             </div>
@@ -77,13 +77,13 @@
             <div class="dropdown-area examen">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Examenes
+                    Practica
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Prueba 1: Automatas Finitos Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Prueba 2: Autoamtas Finitos No Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Prueba 3: Operaciones con automatas</a></li>
+                    <li><a class="dropdown-item" href="#">Practica 1: Automatas Finitos Deterministas</a></li>
+                    <li><a class="dropdown-item" href="#">Practica 2: Autoamtas Finitos No Deterministas</a></li>
+                    <li><a class="dropdown-item" href="#">Practica 3: Operaciones con automatas</a></li>
                 </ul>
 
             </div>
@@ -92,7 +92,7 @@
             <div class="dropdown-area creditos">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Extras
+                    Ejercicios
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">

@@ -23,6 +23,19 @@
     <script type="text/javascript">
         document.body.className += " js"
     </script>
+    
+    <!-- header -->
+    <header>
+        <nav class="navbar">
+            <div class="header">
+                <a href="index">
+                    <img src="assets/images/logoEditado.png" alt="AutomaLISa">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
     <div id="content">
         <header id="header">
             <div id="headerContent">Automatas Finitos</div>

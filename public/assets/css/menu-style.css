@@ -33,6 +33,9 @@ body {
     justify-content: center;
     background-color: #C7C5B0;
     height: 350px;
+    font-size: 25pt;
+    font-style: italic;
+    text-align: center;
 
 
 }
@@ -79,17 +82,10 @@ body {
 
 footer {
     width: 100%;
-    position: absolute;
+    position: absolute
+    
+    ;
     bottom: 0;
     left: 0;
-    display: flex;
-    flex-direction: row;
-
 
   }
-  @media (max-width: 800px) { .footer {
-    width: 100%;
-    bottom: 0;
-    left: 0;
-
-  }  }
