@@ -52,7 +52,7 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="AutomatasFinitos">Automatas Finitos </a></li>
                     <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Automatas Finitos Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Autoamtas Finitos No Deterministas</a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Autoamtas Finitos No Deterministas</a></li>
                     <li><a class="dropdown-item" href="#">Operaciones con automatas</a></li>
                 </ul>
 

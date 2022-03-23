@@ -23,7 +23,7 @@
     <script type="text/javascript">
         document.body.className += " js"
     </script>
-    
+
     <!-- header -->
     <header>
         <nav class="navbar">
@@ -42,11 +42,16 @@
         </header>
         <nav id="siteNav">
             <ul>
-                <li id="active"><a href="AutomatasFinitos" class="active daddy main-node">Automatas Finitos</a></li>
+                <li><a href="AutomatasFinitos" class="  active daddy main-node">Automatas Finitos</a></li>
                 <li><a href="AutomatasFinitosDeterministas" class="no-ch">Automatas Deterministas</a></li>
+                <li><a href="AutomatasFinitosNoDeterministas" class=" no-ch">Automatas No Determinstas</a></li>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+                <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
             </ul>
         </nav>
-        
+
         <div id="main-wrapper">
             <section id="main">
                 <header id="nodeDecoration">
@@ -60,7 +65,7 @@
                         <div class="iDevice_inner">
                             <div class="iDevice_content_wrapper">
                                 <div id="ta0_117_2" class="block iDevice_content">
-                                    <div class="exe-text"> 
+                                    <div class="exe-text">
                                         <h1 style="text-align: left;"><span style="font-size: 24pt;">¿Autómatas finitos?</span></h1>
                                         <p style="text-align: left;"> <span style="font-size: 12pt;">Tal vez haz escuchado de ellos, o tal vez te está enseñando sobre ellos, pero no terminas de entenderles, y es normal, así que o te preocupes, aquí te vamos a ayudar, los autómatas finitos son en sí, estados y transiciones que cambian constantemente según el contexto, estos poseen un estado inicial y uno final, en algunos casos un solo estado puede llegar a ser ambos, desde inicio hasta final. </span></p>
                                         <p style="text-align: left;"></p>
@@ -93,7 +98,7 @@
             </section>
         </div>
         <div id='bottomPagination'>
-            
+
         </div>
     </div>
     <script type="text/javascript" src="assets/js/_default_js.js"></script>

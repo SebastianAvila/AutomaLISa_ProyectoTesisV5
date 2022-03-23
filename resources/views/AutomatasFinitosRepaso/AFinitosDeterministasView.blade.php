@@ -42,11 +42,21 @@
         </header>
         <nav id="siteNav">
             <ul>
-                <li id="active"><a href="AutomatasFinitos" class="active daddy main-node">Automatas Finitos</a></li>
-                <li><a href="AutomatasFinitosDeterministas" class="no-ch">Automatas Deterministas</a></li>
+                <li><a href="AutomatasFinitos" class="daddy main-node">Automatas Finitos</a></li>
+                <li><a href="AutomatasFinitosDeterministas" class="active no-ch">Automatas Deterministas</a></li>
+                <li><a href="AutomatasFinitosNoDeterministas" class=" no-ch">Automatas No Determinstas</a></li>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+                <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
             </ul>
         </nav>
-       
+        <div id='topPagination'>
+            <nav class="pagination noprt">
+                <a href="menuSeleccion" class="prev"><span><span>&laquo; </span>Menu AutomaLISa</span></a>
+            </nav>
+        </div>
+
         <div id="main-wrapper">
             <section id="main">
                 <header id="nodeDecoration">
@@ -110,11 +120,6 @@
                     <p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
                 </div>
             </section>
-        </div>
-        <div id='bottomPagination'>
-            <nav class="pagination noprt">
-                <a href="eliminar.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-            </nav>
         </div>
     </div>
     <script type="text/javascript" src="assets/js/_default_js.js"></script>
