@@ -34,13 +34,13 @@ if (View::exists('index')) {
         return view('index');
     });
 } else {
-    echo "La vista solicitada no exite Index"; 
+    echo "La vista solicitada no exite Index";
 }
 
 if (View::exists('index')) {
     Route::view('/index', 'index');
 } else {
-    echo "La vista solicitada no exite Index"; 
+    echo "La vista solicitada no exite Index";
 }
 
 
@@ -49,16 +49,14 @@ if (View::exists('menu')) {
     Route::view('/MenuSeleccion', 'menu');
 } else {
 
-  echo "La vista solicitada no exite menu"; 
-      
-    
+    echo "La vista solicitada no exite menu";
 }
 
 if (View::exists('AutomatasFinitosRepaso.AFinitosView')) {
     Route::view('/AutomatasFinitos', 'AutomatasFinitosRepaso.AFinitosView');
 } else {
 
-    echo "La vista solicitada no exite Automatas Finitos"; 
+    echo "La vista solicitada no exite Automatas Finitos";
 }
 
 
@@ -66,11 +64,11 @@ if (View::exists('AutomatasFinitosRepaso.AFinitosDeterministasView')) {
     Route::view('/AutomatasFinitosDeterministas', 'AutomatasFinitosRepaso.AFinitosDeterministasView');
 } else {
 
-    echo "La vista solicitada no exite Automatas Finitos"; 
+    echo "La vista solicitada no exite Automatas Finitos";
 }
 if (View::exists('AutomatasFinitosRepaso.AFinitosNoDeterministasView')) {
     Route::view('/AutomatasFinitosNoDeterministas', 'AutomatasFinitosRepaso.AFinitosNoDeterministasView');
 } else {
 
-    echo "La vista solicitada no exite Automatas Finitos"; 
+    echo "La vista solicitada no exite Automatas Finitos";
 }
