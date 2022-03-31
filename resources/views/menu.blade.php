@@ -81,7 +81,7 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Practica 1: Automatas Finitos Deterministas</a></li>
+                    <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
                     <li><a class="dropdown-item" href="#">Practica 2: Autoamtas Finitos No Deterministas</a></li>
                     <li><a class="dropdown-item" href="#">Practica 3: Operaciones con automatas</a></li>
                 </ul>

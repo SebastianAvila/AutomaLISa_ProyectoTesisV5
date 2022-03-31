@@ -34,5 +34,6 @@
                     </header>
                     <div class="iDevice_inner">
 
+                    <img src="assets/images/mantenimiento.png" alt="">
                     </div>
                     @include('../layout/footer')

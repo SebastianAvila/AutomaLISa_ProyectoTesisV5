@@ -70,5 +70,12 @@ if (View::exists('AutomatasFinitosRepaso.AFinitosNoDeterministasView')) {
     Route::view('/AutomatasFinitosNoDeterministas', 'AutomatasFinitosRepaso.AFinitosNoDeterministasView');
 } else {
 
-    echo "La vista solicitada no exite Automatas Finitos";
+    echo "La vista solicitada no exite Automatas Finitos Deterministas ";
+}
+
+if (View::exists('PreguntasAutomatas.preguntasPrueba')) {
+    Route::view('/PreguntasPrueba', 'PreguntasAutomatas.preguntasPrueba');
+} else {
+
+    echo "La vista solicitada no exite Preguntas Prueba ";
 }

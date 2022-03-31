@@ -28,6 +28,7 @@
                         <h1 class="iDeviceTitle">Automatas No deterministas </h1>
                     </header>
                     <div class="iDevice_inner">
+                    <img src="assets/images/mantenimiento.png" alt="">
 
                     </div>
                     @include('../layout/footer')
