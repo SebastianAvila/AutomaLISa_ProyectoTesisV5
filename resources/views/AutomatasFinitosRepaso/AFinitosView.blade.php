@@ -3,7 +3,7 @@
     <header id="header">
         <div id="headerContent">Automatas Finitos</div>
     </header>
-    <!-- <nav id="siteNav">
+    <nav id="siteNav">
         <ul>
             <li><a href="AutomatasFinitos" class="  active daddy main-node">Automatas Finitos</a></li>
             <li><a href="AutomatasFinitosDeterministas" class="no-ch">Automatas Deterministas</a></li>
@@ -13,7 +13,7 @@
             <li> </li>
             <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
         </ul>
-    </nav> -->
+    </nav>
 
     <div id="main-wrapper">
         <section id="main">
@@ -26,9 +26,11 @@
                         <h1 class="iDeviceTitle">Introduccion a los automatas finitos</h1>
                     </header>
                     <div class="iDevice_inner">
-                    <img src="assets/images/mantenimiento.png" alt="">
+                        <div class="iframe-conted">
+                            <iframe src="AFNslide1" title="Minimal" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     </div>
 
 
-                    
+
                     @include('../layout/footer')

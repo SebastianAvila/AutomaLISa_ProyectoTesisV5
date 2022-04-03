@@ -79,3 +79,13 @@ if (View::exists('PreguntasAutomatas.preguntasPrueba')) {
 
     echo "La vista solicitada no exite Preguntas Prueba ";
 }
+
+
+
+if (View::exists('AFN-Slides.AFNslide1')) {
+    Route::view('/AFNslide1', 'AFN-Slides.AFNslide1');
+} else {
+
+    echo "La vista solicitada no exiteAFN-Slides.AFNslide1";
+}
+

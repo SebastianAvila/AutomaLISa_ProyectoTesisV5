@@ -25,6 +25,24 @@ a {
     text-decoration: none
 }
 
+.iframe-conted{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+iframe {
+    width:1200px;
+    height: 800px;
+    
+    
+}
+
+@media (max-width: 800px) { iframe {
+    width: 800px;
+    height: 500px;
+}
+ }
+
 a:hover,
 a:focus {
     text-decoration: underline
