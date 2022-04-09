@@ -60,18 +60,8 @@ if (View::exists('AutomatasFinitosRepaso.AFinitosView')) {
 }
 
 
-if (View::exists('AutomatasFinitosRepaso.AFinitosDeterministasView')) {
-    Route::view('/AutomatasFinitosDeterministas', 'AutomatasFinitosRepaso.AFinitosDeterministasView');
-} else {
 
-    echo "La vista solicitada no exite Automatas Finitos";
-}
-if (View::exists('AutomatasFinitosRepaso.AFinitosNoDeterministasView')) {
-    Route::view('/AutomatasFinitosNoDeterministas', 'AutomatasFinitosRepaso.AFinitosNoDeterministasView');
-} else {
 
-    echo "La vista solicitada no exite Automatas Finitos Deterministas ";
-}
 
 if (View::exists('PreguntasAutomatas.preguntasPrueba')) {
     Route::view('/PreguntasPrueba', 'PreguntasAutomatas.preguntasPrueba');
@@ -82,10 +72,4 @@ if (View::exists('PreguntasAutomatas.preguntasPrueba')) {
 
 
 
-if (View::exists('AFN-Slides.AFNslide1')) {
-    Route::view('/AFNslide1', 'AFN-Slides.AFNslide1');
-} else {
-
-    echo "La vista solicitada no exiteAFN-Slides.AFNslide1";
-}
 

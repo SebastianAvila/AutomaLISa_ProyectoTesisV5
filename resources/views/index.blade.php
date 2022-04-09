@@ -53,7 +53,7 @@
                             <div class="collapse navbar-collapse" id="navbarsExample04">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item ">
-                                        <a class="nav-link" href="#we_do">Sobre este proyecto F</a>
+                                        <a class="nav-link" href="#we_do">Sobre este proyecto</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#contact">Contactanos</a>

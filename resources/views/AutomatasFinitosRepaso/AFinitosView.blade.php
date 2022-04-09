@@ -5,12 +5,6 @@
     </header>
     <nav id="siteNav">
         <ul>
-            <li><a href="AutomatasFinitos" class="  active daddy main-node">Automatas Finitos</a></li>
-            <li><a href="AutomatasFinitosDeterministas" class="no-ch">Automatas Deterministas</a></li>
-            <li><a href="AutomatasFinitosNoDeterministas" class=" no-ch">Automatas No Determinstas</a></li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
             <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
         </ul>
     </nav>
@@ -27,10 +21,9 @@
                     </header>
                     <div class="iDevice_inner">
                         <div class="iframe-conted">
-                            <iframe src="AFNslide1" title="Minimal" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                        <iframe src="https://slides.com/sebastianavila/desk/embed"  title="Desk" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-
-
 
                     @include('../layout/footer')
