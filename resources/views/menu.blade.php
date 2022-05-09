@@ -43,7 +43,7 @@
 
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Teoria
+                    <p class="btb-dropdown-text">Teoria</p> 
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -59,7 +59,7 @@
             <div class="dropdown-area practicas">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Ejemplos
+                    <p class="btb-dropdown-text">Ejemplos </p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -74,7 +74,7 @@
             <div class="dropdown-area examen">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Practica
+                     <p class="btb-dropdown-text">Ejercicios</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -89,7 +89,7 @@
             <div class="dropdown-area creditos">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Ejercicios
+                    <p class="btb-dropdown-text">Evaluación</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
