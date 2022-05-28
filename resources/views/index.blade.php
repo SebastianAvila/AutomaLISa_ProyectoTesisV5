@@ -56,7 +56,7 @@
                                         <a class="nav-link" href="#we_do">Sobre este proyecto</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#contact">Contactanos</a>
+                                        <a class="nav-link" href="#contact">Contáctanos</a>
                                     </li>
                                 </ul>
                             </div>
@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>¿Por que este proyecto?</h2>
+                        <h2>¿Por qué este proyecto?</h2>
                         <span></span>
                         <strong></strong>
                     </div>
@@ -111,21 +111,21 @@
                     <div class="we_do_box">
                         <i><img class="imgInBlack" src="assets/images/tesisImg.png" alt="#" /></i>
                         <h4>Proyecto de Tesis</h4>
-                        <p>Automa<span>LIS</span>a nace de un proyecto de tesis para poder ayudar a estudiantes de la licenciatura en ingenieria de software en el tema de automatas finitos </p>
+                        <p>Automa<span>LIS</span>a es parte de un proyecto de tesis enfocado en el tema de los Autómatas Finitos </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="we_do_box">
                         <i><img src="assets/images/learning.png" alt="#" /></i>
                         <h4>Aprendizaje</h4>
-                        <p>Ese software busca ayudar a estudiantes de carrera afines a la computacion con el tema de los automatas finitos asi como operaciones sencillas relacionadas al tema </p>
+                        <p>Este software aborda el tema de los Autómatas Finitos, sus característica, propiedades y representación de lenguajes. </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="we_do_box">
                         <i><img class="imgInBlack" src="assets/images/experienceImg.png" alt="#" /></i>
                         <h4>Experiencia</h4>
-                        <p> El desarrolllo de este sistema tambien busca aportar experiencia tanto al desarrollador como a las personas al momento de estudiar el tema principal</p>
+                        <p> El desarrolllo de este sistema se realiza con el framework Laravel.</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                 <div class="col-md-12">
                     <div class="titlepage">
                         <h2>¡Contacta con nosotros!</h2><br><br>
-                        <h3>Tus comentarios son importates para mejorar este software</h3>
+                        <h3>Si tienes algún comentario con respecto a este software puedes comunicarte con el autor al correo </h3>
                         <br>
                         <span></span>
                         <strong></strong>

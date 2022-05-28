@@ -29,9 +29,7 @@
     <!-- end header -->
     <div class="center">
         <div class="text">
-            <p class="texto">Bienvenido a AutomaLISa, aqui podras aprender, practicar y evaluar tus conocimientos </p>
-            <p class="texto"> sobre los automatas finitos y sus operaciones</p>
-            <p class="texto">Haz click en alguna de las opciones de abajo para empezar</p>
+        <p class="texto">Bienvenido a AutomaLISa, una aplicación creada para apoyar el proceso de enseñanza-aprendizaje de los Autómatas Finitos.</p>
         </div>
     </div>
 
@@ -79,8 +77,8 @@
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
-                    <li><a class="dropdown-item" href="#">Practica 2: Autoamtas Finitos No Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Practica 3: Operaciones con automatas</a></li>
+                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
+                    <li><a class="dropdown-item" href="#">Conversión de AFN a AFD</a></li>
                 </ul>
 
             </div>
@@ -93,8 +91,8 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Creditos</a></li>
-                    <li><a class="dropdown-item" href="#">Agradecimientos</a></li>
+                    <!-- <li><a class="dropdown-item" href="#">Creditos</a></li>
+                    <li><a class="dropdown-item" href="#">Agradecimientos</a></li> -->
 
                 </ul>
 
