@@ -41,14 +41,15 @@
 
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Teoria</p>
+                    <p class="btb-dropdown-text">Teoría</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="AutomatasFinitos">Introducción a Autómatas Finitos </a></li>
                     <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Diseño de AFD</a></li>
                     <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Diseño de AFN</a></li>
-                    
+                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Aceptación de palabras</a></li>
+
                 </ul>
 
 
@@ -61,10 +62,9 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Automatas Finitos </a></li>
-                    <li><a class="dropdown-item" href="#">Ejemplos 1: Automatas Finitos Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Ejemplos 2: Autoamtas Finitos No Deterministas</a></li>
-                    <li><a class="dropdown-item" href="#">Ejemplos 3: Operaciones con automatas</a></li>
+                    <li><a class="dropdown-item" href="#">Diseño de AFD </a></li>
+                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
+                    <li><a class="dropdown-item" href="#">Palabras Aceptadas</a></li>
                 </ul>
 
             </div>
@@ -76,9 +76,9 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
-                    <li><button class="btn-abrir-popup" id="btn-abrir-popup">Diseño de automatas</button></li>
-                    <li><a class="dropdown-item" href="#">Conversión de AFN a AFD</a></li>
+                    <li><a class="dropdown-item" href="#">Diseño de AFD </a></li>
+                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
+                    <li><a class="dropdown-item" href="#">Palabras Aceptadas</a></li>
                 </ul>
 
             </div>
@@ -94,6 +94,8 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <!-- <li><a class="dropdown-item" href="#">Creditos</a></li>
                     <li><a class="dropdown-item" href="#">Agradecimientos</a></li> -->
+                    <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
+
 
                 </ul>
 
@@ -110,7 +112,7 @@
                 <li>Automata finito Determinista</li>
                 <li>Automata Finito No Determinista</li>
             </ul>
-            
+
         </div>
     </div>
     <footer class="bg-dark text-center text-white">
