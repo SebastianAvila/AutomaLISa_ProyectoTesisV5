@@ -29,7 +29,7 @@
     <!-- end header -->
     <div class="center">
         <div class="text">
-        <p class="texto">Bienvenido a AutomaLISa, una aplicación creada para apoyar el proceso de enseñanza-aprendizaje de los Autómatas Finitos.</p>
+            <p class="texto">Bienvenido a AutomaLISa, una aplicación creada para apoyar el proceso de enseñanza-aprendizaje de los Autómatas Finitos.</p>
         </div>
     </div>
 
@@ -41,14 +41,14 @@
 
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown  " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Teoria</p> 
+                    <p class="btb-dropdown-text">Teoria</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="AutomatasFinitos">Automatas Finitos </a></li>
-                    <!-- <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Automatas Finitos Deterministas</a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitos">Introduccion a Automatas Finitos </a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Automatas Finitos Deterministas</a></li>
                     <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Autoamtas Finitos No Deterministas</a></li>
-                    <li><a class="dropdown-item" href="layaoutRepasoBase">Operaciones con automatas</a></li> -->
+                    
                 </ul>
 
 
@@ -72,16 +72,17 @@
             <div class="dropdown-area examen">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                     <p class="btb-dropdown-text">Ejercicios</p>
+                    <p class="btb-dropdown-text">Ejercicios</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
-                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
+                    <li><button class="btn-abrir-popup" id="btn-abrir-popup">Diseño de automatas</button></li>
                     <li><a class="dropdown-item" href="#">Conversión de AFN a AFD</a></li>
                 </ul>
 
             </div>
+
 
 
             <div class="dropdown-area creditos">
@@ -97,6 +98,19 @@
                 </ul>
 
             </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">x</a>
+            <h3>Diseño de automatas</h3>
+            <ul>
+                <li>Automata Finitos dado un lenguaje</li>
+                <li>Automata finito Determinista</li>
+                <li>Automata Finito No Determinista</li>
+            </ul>
+            
         </div>
     </div>
     <footer class="bg-dark text-center text-white">
@@ -135,7 +149,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="assets/js/popup.js"></script>
 </body>
 
 
