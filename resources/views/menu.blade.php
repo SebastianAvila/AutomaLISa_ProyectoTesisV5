@@ -45,9 +45,9 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="AutomatasFinitos">Introduccion a Automatas Finitos </a></li>
-                    <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Automatas Finitos Deterministas</a></li>
-                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Autoamtas Finitos No Deterministas</a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitos">Introducción a Autómatas Finitos </a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Diseño de AFD</a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Diseño de AFN</a></li>
                     
                 </ul>
 
