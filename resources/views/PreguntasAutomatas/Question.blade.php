@@ -11,30 +11,30 @@
 </head>
 <body>
     <!-- start Quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="start_btn"><button>Empezar prueba</button></div>
 
     <!-- Info Box -->
     <div class="info_box">
-        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-title"><span>Instrucciones </span></div>
         <div class="info-list">
-            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
-            <div class="info">2. Once you select your answer, it can't be undone.</div>
-            <div class="info">3. You can't select any option once time goes off.</div>
-            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+            <div class="info">1. Unicamente tienes <span>15 segundos</span> para contestar cada pregunta.</div>
+            <div class="info">2. Una vez que seleccionas tu respuesta, no se puede deshacer.</div>
+            <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
+            <div class="info">4. No puedes salir de la prueba mientras la realizas .</div>
+            <div class="info">5. Obtendrás puntos en base a tus respuestas correctas.</div>
         </div>
         <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
         </div>
     </div>
 
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Awesome Quiz Application</div>
+            <div class="title"></div>
             <div class="timer">
-                <div class="time_left_txt">Time Left</div>
+                <div class="time_left_txt">Tiempo Restante</div>
                 <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
@@ -53,7 +53,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Siguiente</button>
         </footer>
     </div>
 
@@ -62,13 +62,13 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="complete_text">Prueba terminada</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart">Replay Quiz</button>
-            <button class="quit">Quit Quiz</button>
+            <button class="restart">Repetir</button>
+            <button class="quit">Salir</button>
         </div>
     </div>
 

@@ -3,5 +3,6 @@
 #042d3b; azul 
 #C7C5B0; arema 
 AF663D; cobrizo
+#d8e0da blanco arena 
 
 botones cafe con fondo amarillo o blanco con fondo cade *checar el style *

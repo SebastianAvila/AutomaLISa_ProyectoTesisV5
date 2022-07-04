@@ -45,10 +45,10 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="AutomatasFinitos">Introducción a Autómatas Finitos </a></li>
-                    <li><a class="dropdown-item" href="AutomatasFinitosDeterministas">Diseño de AFD</a></li>
-                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Diseño de AFN</a></li>
-                    <li><a class="dropdown-item" href="AutomatasFinitosNoDeterministas">Aceptación de palabras</a></li>
+                    <li><a class="dropdown-item" href="IntroduccionAutomatasFinitos">Introducción a Autómatas Finitos </a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosD">Diseño de AFD</a></li>
+                    <li><a class="dropdown-item" href="AutomatasFinitosN">Diseño de AFN</a></li>
+                    <li><a class="dropdown-item" href="AceptacionPalabras">Aceptación de palabras</a></li>
 
                 </ul>
 
