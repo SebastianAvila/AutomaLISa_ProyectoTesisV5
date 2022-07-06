@@ -58,7 +58,7 @@
             <div class="dropdown-area practicas">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Ejemplos </p>
+                    <p class="btb-dropdown-text">Ejercicios </p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -72,13 +72,11 @@
             <div class="dropdown-area examen">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Ejercicios</p>
+                    <p class="btb-dropdown-text">Evaluacion</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Diseño de AFD </a></li>
-                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
-                    <li><a class="dropdown-item" href="#">Palabras Aceptadas</a></li>
+                <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
                 </ul>
 
             </div>
@@ -88,15 +86,13 @@
             <div class="dropdown-area creditos">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Evaluación</p>
+                    <p class="btb-dropdown-text">Acerca de..</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <!-- <li><a class="dropdown-item" href="#">Creditos</a></li>
-                    <li><a class="dropdown-item" href="#">Agradecimientos</a></li> -->
-                    <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
-
-
+                    <li><a class="dropdown-item" href="#">Creditos</a></li>
+                    <li><a class="dropdown-item" href="#">Agradecimientos</a></li>
+                    <li><a class="dropdown-item" href="#">Tecnologias utilizadas</a></li>
                 </ul>
 
             </div>
