@@ -1,7 +1,7 @@
 @include('../layout/header')
 <div id="content">
     <header id="header">
-        <div id="headerContent">Automatas Finitos</div>
+        <div id="headerContent">Introduccion a los automatas finitos</div>
     </header>
     <nav id="siteNav">
         <ul>
@@ -12,7 +12,7 @@
     <div id="main-wrapper">
         <section id="main">
             <header id="nodeDecoration">
-                <h1 id="nodeTitle">Automatas Finitos</h1>
+                <h1 id="nodeTitle">Introduccion a los automatas finitos</h1>
             </header>
             <article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_bulb" id="id0">
                 <div class="iDevice emphasis1">
