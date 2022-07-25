@@ -55,15 +55,15 @@
 
             </div>
 
-            <div class="dropdown-area practicas">
+            <div class="dropdown-area ejercicios">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     <p class="btb-dropdown-text">Ejercicios </p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Diseño de AFD </a></li>
-                    <li><a class="dropdown-item" href="#">Diseño de AFN</a></li>
+                    <li><a class="dropdown-item" href="diseno-AFD">Diseño de AFD </a></li>
+                    <li><a class="dropdown-item" href="diseno-AFN">Diseño de AFN</a></li>
                     <li><a class="dropdown-item" href="#">Palabras Aceptadas</a></li>
                 </ul>
 
@@ -99,18 +99,9 @@
         </div>
     </div>
 
-    <div class="overlay" id="overlay">
-        <div class="popup" id="popup">
-            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">x</a>
-            <h3>Diseño de automatas</h3>
-            <ul>
-                <li>Automata Finitos dado un lenguaje</li>
-                <li>Automata finito Determinista</li>
-                <li>Automata Finito No Determinista</li>
-            </ul>
 
-        </div>
-    </div>
+
+    
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">

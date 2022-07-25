@@ -98,4 +98,29 @@ if (View::exists('PreguntasAutomatas.Question')) {
 }
 
 
+// area de animaciones
 
+// inicio enrutamiento index
+// index 1 AFN|
+if (View::exists('Ejercicios.diseno-AFN')) {
+    Route::view('/diseno-AFN', 'Ejercicios.diseno-AFN');
+} else {
+
+    echo "La vista solicitada no exite diseno-AFN ";
+}
+// index AFD
+if (View::exists('Ejercicios.diseno-AFD')) {
+    Route::view('/diseno-AFD', 'Ejercicios.diseno-AFD');
+} else {
+
+    echo "La vista solicitada no exite diseno-AFD ";
+}
+
+// Enrutamiento ejemplos AFN 
+// ejemplo 1 
+if (View::exists('Ejercicios.ejemplosAFN.ejemplo1')) {
+    Route::view('/ejemplo1', 'Ejercicios.ejemplosAFN.ejemplo1');
+} else {
+
+    echo "La vista solicitada no exite ejemplo1 ";
+}
