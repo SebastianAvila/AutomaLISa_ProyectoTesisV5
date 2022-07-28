@@ -95,7 +95,7 @@
                         <!-- area de slidebar -->
                         <div class="slide-contenedor">
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva1.png" alt="Imagen 1 ">
+                                <img src="assets/images/imagesCarrusel/Diapo1.png" alt="Imagen 1 ">
                             </div>
                             <div class="miSlider">
                                 <img src="assets/images/imagesCarrusel/Diapositiva2.png" alt="Imagen 2">
