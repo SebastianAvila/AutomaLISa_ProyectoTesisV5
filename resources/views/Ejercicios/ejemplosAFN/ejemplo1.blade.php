@@ -98,25 +98,25 @@
                                 <img src="assets/images/imagesCarrusel/Diapo1.png" alt="Imagen 1 ">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva2.png" alt="Imagen 2">
+                                <img src="assets/images/imagesCarrusel/Diapo_2.png" alt="Imagen 2">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva3.png" alt="Imagen 3">
+                                <img src="assets/images/imagesCarrusel/Diapo_3.png" alt="Imagen 3">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva4.png" alt="Imagen 4">
+                                <img src="assets/images/imagesCarrusel/Diapo_4.png" alt="Imagen 4">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva5.png" alt="Imagen 5">
+                                <img src="assets/images/imagesCarrusel/Diapo_5.png" alt="Imagen 5">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva6.png" alt="Imagen 6">
+                                <img src="assets/images/imagesCarrusel/Diapo_6.png" alt="Imagen 6">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva7.png" alt="Imagen 7">
+                                <img src="assets/images/imagesCarrusel/Diapo_7.png" alt="Imagen 7">
                             </div>
                             <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapositiva8.png" alt="Imagen 8">
+                                <img src="assets/images/imagesCarrusel/Diapo_8.png" alt="Imagen 8">
                             </div>
                             <div class="direcciones">
                                 <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
