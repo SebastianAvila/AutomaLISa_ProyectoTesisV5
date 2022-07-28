@@ -135,7 +135,6 @@
                         </div>
                     </div>
 
-                    <img src="assets/images/imagesCarrusel/Captura de pantalla 2022-04-15 155454.png" alt="" srcset="">
 
                     <script src="assets/js/main.js"></script>
                     @include('../../layout/footer')
