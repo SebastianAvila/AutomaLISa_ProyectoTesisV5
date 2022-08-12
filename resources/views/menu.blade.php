@@ -90,9 +90,9 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Creditos</a></li>
-                    <li><a class="dropdown-item" href="#">Agradecimientos</a></li>
-                    <li><a class="dropdown-item" href="#">Tecnologias utilizadas</a></li>
+                    <li><a class="dropdown-item" href="creditos">Creditos</a></li>
+                    <li><a class="dropdown-item" href="agradecimientos">Agradecimientos</a></li>
+                    <li><a class="dropdown-item" href="tecnologias">Tecnologias utilizadas</a></li>
                 </ul>
 
             </div>
