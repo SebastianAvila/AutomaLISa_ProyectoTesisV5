@@ -1,0 +1,51 @@
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background: #042d3b;
+    padding: 5px 10px;
+}
+
+body {
+    margin: 0;
+    background-color: #C7C5B0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+
+
+.btn:hover {
+    background-color: #ddad25;
+    transition: ease-in all 0.20s;
+    color: #fff;
+    border-radius: 26px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+
+
+}

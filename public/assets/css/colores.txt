@@ -1,7 +1,7 @@
 #2b2b2b;  cafe 
 #d0b608;  amarillo mostaza 
 #042d3b; azul 
-#C7C5B0; arema 
+#C7C5B0; arena 
 AF663D; cobrizo
 #d8e0da blanco arena 
 
