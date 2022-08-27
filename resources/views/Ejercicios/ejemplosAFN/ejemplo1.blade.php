@@ -1,75 +1,8 @@
 @include('../../layout/header')
 
 <style>
-    .slide-contenedor {
-        max-width: 100%;
-        max-height: 100vh;
-        width: 50%;
-        height: auto;
-        position: relative;
-        overflow: hidden;
-        /* margin: auto; */
-    }
-
-    /* .miSlider{
-    display: none;
-    transition: 2s;
-    max-height: 100vh;
-        } */
-
-    .miSlider img {
-        width: 100%;
-        max-height: 100vh;
-        height: inherit;
-        object-fit: cover;
-        vertical-align: top;
-        transition: 2s;
-    }
-
-    .direcciones {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 20px;
-    }
-
-    .direcciones a {
-        color: #fff;
-        display: inline-block;
-        padding: 20px;
-        text-decoration: none;
-    }
-
-    .direcciones a:hover {
-        background: rgba(0, 0, 0, .5);
-        transition: .5s;
-    }
-
-    .barras {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-
-    .barra {
-        cursor: pointer;
-        height: 2px;
-        width: 25px;
-        margin: 0 2px;
-        background: #dcdde1;
-        display: inline-block;
-        margin-left: 3px;
-    }
-
-    .active {
-        background-color: #e74c3c;
+    .buttons {
+        text-align: center;
     }
 </style>
 
@@ -79,7 +12,6 @@
         <div id="headerContent">Diseño de un AFN</div>
     </header>
     @include('../../Ejercicios/siteNav-AFN')
-
     <div id="main-wrapper">
         <section id="main">
             <header id="nodeDecoration">
@@ -92,49 +24,47 @@
                     </header>
                     <div class="iDevice_inner">
 
-                        <!-- area de slidebar -->
-                        <div class="slide-contenedor">
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo1.png" alt="Imagen 1 ">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_2.png" alt="Imagen 2">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_3.png" alt="Imagen 3">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_4.png" alt="Imagen 4">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_5.png" alt="Imagen 5">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_6.png" alt="Imagen 6">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_7.png" alt="Imagen 7">
-                            </div>
-                            <div class="miSlider">
-                                <img src="assets/images/imagesCarrusel/Diapo_8.png" alt="Imagen 8">
-                            </div>
-                            <div class="direcciones">
-                                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-                                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-                            </div>
-                            <div class="barras">
-                                <span class="barra active" onclick="posicionSlide(1)"></span>
-                                <span class="barra" onclick="posicionSlide(2)"></span>
-                                <span class="barra" onclick="posicionSlide(3)"></span>
-                                <span class="barra" onclick="posicionSlide(4)"></span>
-                                <span class="barra" onclick="posicionSlide(5)"></span>
-                                <span class="barra" onclick="posicionSlide(6)"></span>
-                                <span class="barra" onclick="posicionSlide(7)"></span>
-                                <span class="barra" onclick="posicionSlide(8)"></span>
-                            </div>
+                        <!-- Original Found here: http://jsfiddle.net/k6jq2ym6/6/ -->
+                        <section class="slider">
+                            <div><img src="assets/images/imagesCarrusel/Diapo1.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_2.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_3.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_4.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_5.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_6.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_7.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesCarrusel/Diapo_8.png" alt="Diapositiva " srcset=""></div>
+
+                        </section>
+
+                        <div class="buttons">
+                            <button type="button" class="btn btn-outline-primary" id="toggle">
+                                Play
+                            </button>
                         </div>
+
                     </div>
 
+                    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
                     <script src="assets/js/main.js"></script>
+                    <script>
+                        $(".slider").slick({
+                            dots: true,
+                            fade: true,
+                            arrows: true
+                        });
+
+                        $('#toggle').click(function() {
+                            if ($(this).html() == 'Pause') {
+                                $('.slider').slick('slickPause')
+                                $(this).html(' Play')
+                            } else {
+                                $('.slider').slick('slickPlay')
+                                $(this).html('Pause')
+                            }
+                        });
+                    </script>
                     @include('../../layout/footer')

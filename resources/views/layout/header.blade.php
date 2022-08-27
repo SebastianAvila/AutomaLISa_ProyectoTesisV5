@@ -2,22 +2,23 @@
 <html lang="es">
 
 <head>
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
     <link rel="stylesheet" type="text/css" href=" assets/css/content.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
-    <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-    <title>Automatas Finitos </title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+
+    <!-- metas -->
     <meta name="author" content="Sebastian Avila" />
-    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
-    <meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
-    <meta name="description" content="Automatas Finitos" />
-    <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
-    <script type="text/javascript" src="assets/js/exe_jquery.js"></script>
-    <script type="text/javascript" src="assets/js/common_i18n.js"></script>
-    <script type="text/javascript" src="assets/js/common.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- title -->
+    <title>Automatas Finitos </title>
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Query -->
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
 </head>
 
 <body class="exe-web-site" id="exe-node-0">
