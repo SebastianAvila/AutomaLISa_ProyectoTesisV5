@@ -11,14 +11,10 @@
 
     <div id="main-wrapper">
         <section id="main">
-            <header id="nodeDecoration">
-                <h1 id="nodeTitle">Introduccion a los automatas finitos</h1>
-            </header>
+           
             <article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_bulb" id="id0">
                 <div class="iDevice emphasis1">
-                    <header class="iDevice_header">
-                        <h1 class="iDeviceTitle">Introduccion a los automatas finitos</h1>
-                    </header>
+                    
                     <div class="iDevice_inner">
                         <div class="iframe-conted">
 

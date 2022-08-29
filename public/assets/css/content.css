@@ -11,7 +11,6 @@ html {
 
 body {
     font: .75em/1.5 Arial, Verdana, Helvetica, sans-serif;
-    padding: 15px;
     margin: 0;
     text-align: left;
     color: #444;
@@ -49,7 +48,7 @@ a:focus {
 .navbar {
     width: 100%;
     background: #2b2b22;
-    padding: 5px 10px;
+    
 }
 
 
