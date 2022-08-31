@@ -1,11 +1,11 @@
 @include('../layout/header')
 <div id="content">
     <header id="header">
-        <div id="headerContent">Automatas Finitos no Deterministas</div>
+        <div id="headerContent">Autómatas Finitos no Deterministas</div>
     </header>
     <nav id="siteNav">
         <ul>
-            <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
+            <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menú</a></li>
         </ul>
     </nav>
 

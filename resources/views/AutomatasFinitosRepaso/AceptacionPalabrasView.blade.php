@@ -5,7 +5,7 @@
     </header>
     <nav id="siteNav">
         <ul>
-            <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menu</a></li>
+            <li><a href="MenuSeleccion" class="  active daddy main-node">Regresar al menú</a></li>
         </ul>
     </nav>
 

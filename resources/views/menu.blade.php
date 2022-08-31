@@ -72,11 +72,14 @@
             <div class="dropdown-area examen">
 
                 <button class="btn dropdown-toggle shadow-lg p-3 btn-dropdown " href="#" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <p class="btb-dropdown-text">Evaluacion</p>
+                    <p class="btb-dropdown-text">Evaluación</p>
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
+                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 1: Autómatas Finitos Determinisas </a></li>
+                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 2: Autómatas Finitos No Deterministas </a></li>
+                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 3: Aceptación de Palabras </a></li>
                 </ul>
 
             </div>
