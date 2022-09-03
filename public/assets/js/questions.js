@@ -3,6 +3,7 @@ let questions = [
     {
     numb: 1,
     question: "What does HTML stand for?",
+    img: "../assets/images/imgprueba.jpg",
     answer: "Hyper Text Markup Language",
     options: [
       "Hyper Text Preprocessor",

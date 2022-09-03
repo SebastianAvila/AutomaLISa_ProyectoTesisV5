@@ -43,6 +43,12 @@
             <div class="que_text">
                 <!-- Here I've inserted question from JavaScript -->
             </div>
+
+            <div class="imgQues">
+                <!-- Aqui va la imagen de requerirse  -->
+            </div>
+
+            <!-- Aqui iria la imagen  -->
             <div class="option_list">
                 <!-- Here I've inserted options from JavaScript -->
             </div>
