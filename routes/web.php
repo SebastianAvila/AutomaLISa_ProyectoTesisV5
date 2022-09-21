@@ -118,13 +118,34 @@ if (View::exists('Ejercicios.diseno-AFD')) {
 
 // Enrutamiento ejemplos AFN 
 // ejemplo 1 
-if (View::exists('Ejercicios.ejemplosAFN.ejemplo1')) {
-    Route::view('/ejemplo1', 'Ejercicios.ejemplosAFN.ejemplo1');
+if (View::exists('Ejercicios.ejemplosAFD.ejemplo1')) {
+    Route::view('/ejemplo1', 'Ejercicios.ejemplosAFD.ejemplo1');
 } else {
 
     echo "La vista solicitada no exite ejemplo1 ";
 }
 
+if (View::exists('Ejercicios.ejemplosAFD.ejemplo2')) {
+    Route::view('/ejemplo2', 'Ejercicios.ejemplosAFD.ejemplo2');
+} else {
+
+    echo "La vista solicitada no exite ejemplo2 ";
+}
+
+if (View::exists('Ejercicios.ejemplosAFD.ejemplo3')) {
+    Route::view('/ejemplo3', 'Ejercicios.ejemplosAFD.ejemplo3');
+} else {
+
+    echo "La vista solicitada no exite ejemplo3 ";
+    
+}
+
+if (View::exists('Ejercicios.ejemplosAFD.ejemplo4')) {
+    Route::view('/ejemplo4', 'Ejercicios.ejemplosAFD.ejemplo4');
+} else {
+
+    echo "La vista solicitada no exite ejemplo4 ";
+}
 // area de acerca de
 
 

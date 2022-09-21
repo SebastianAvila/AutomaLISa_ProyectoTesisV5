@@ -11,7 +11,7 @@
     <header id="header">
         <div id="headerContent">Diseño de un AFN</div>
     </header>
-    @include('../../Ejercicios/siteNav-AFN')
+    @include('../../Ejercicios/siteNav-AFD')
     <div id="main-wrapper">
         <section id="main">
             <header id="nodeDecoration">
@@ -26,14 +26,13 @@
 
                         <!-- Original Found here: http://jsfiddle.net/k6jq2ym6/6/ -->
                         <section class="slider">
-                            <div><img src="assets/images/imagesCarrusel/Diapo1.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_2.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_3.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_4.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_5.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_6.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_7.png" alt="Diapositiva " srcset=""></div>
-                            <div><img src="assets/images/imagesCarrusel/Diapo_8.png" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva1.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva2.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva3.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva4.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva5.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva6.jpg" alt="Diapositiva " srcset=""></div>
+                            <div><img src="assets/images/imagesEjAFN/EJ2 AFD/Diapositiva7.jpg" alt="Diapositiva " srcset=""></div>
 
                         </section>
 
