@@ -80,12 +80,12 @@ let questions = [
   {
     numb:8 ,
     question: "¿Cuál de las siguientes características distingue a un Autómata Finito Determinista?",
-    answer: "Todo estado tiene exactamente una transición para cada símbolo del alfabeto y existe un único camino para leer a todas las palabras generadas a partir del alfabeto.",
+    answer: "Todo estado tiene exactamente una transición para cada símbolo del alfabeto.",
     options: [
-      "Alguno de los estados tiene 0 o más de 1 transición para cada símbolo del alfabeto  y existe varios caminos para leer la misma palabra.",
-      "Solo un estado tiene una transición para cada símbolo del alfabeto y existe un único camino para leer a todas las palabras generadas a partir del alfabeto",
-      "Todo estado tiene exactamente una transición para cada símbolo del alfabeto y existe un único camino para leer a todas las palabras generadas a partir del alfabeto.",//
-      "Todo estado tiene exactamente una transición para algún símbolo del alfabeto y existe varios caminos para leer la misma palabra."
+      "Alguno de los estados tiene 0 o más de 1 transición para cada símbolo del alfabeto.",
+      "Solo un estado tiene una transición para cada símbolo del alfabeto.",
+      "Todo estado tiene exactamente una transición para cada símbolo del alfabeto.",//
+      "Todo estado tiene exactamente una transición para algún símbolo del alfabeto."
     ]
   },
   {
@@ -95,19 +95,19 @@ let questions = [
     options: [
       "Algún estado puede tener 0 o más de 1 transición con cada símbolo del alfabeto  y existe varios caminos para leer la misma palabra.",
       "Todo estado tiene exactamente 1 transición con cada símbolo del alfabeto y existe varios caminos para leer la misma palabra.", //
-      "Todo estado puede tener más de 1 transición para un solo símbolo del alfabeto y existe un único camino para leer a todas las palabras generadas a partir del alfabeto.",
-      "Solo un estado puede tener más de 1 transición para cada símbolo del alfabeto y existe un único camino para leer a todas las palabras generadas a partir del alfabeto."
+      "Todo estado puede tener más de 1 transición para un solo símbolo del alfabeto y existe un único camino para leer a todas las palabras.",
+      "Solo un estado puede tener más de 1 transición para cada símbolo del alfabeto y existe un único camino para leer a todas las palabras."
     ]
   },
   {
     numb: 10,
-    question: "En la definición formal del autómata M (K={q0,q1,q2,q3}, Σ={0,1}, s=q0, F=q0, δ={(q0,1,q1),(q0,0,q2),(q1,1,q0),(q2,1,q3),(q2,0,q0),(q3,0,q1),(q3,1,q2)}). ¿Que trancision hace falta para que el autómata sea determinista??",
-    answer: "(q1,0,q3)",
+    question: "El automta finito determinista: ",
+    answer: "No tiene vacíos y no puede estar en mas de aun estado a la vez",
     options: [
-      "(q2,1,q2)",
-      "(q1,0,q3)", //
-      "(q1,0,q1)",
-      "(q3,1,q3)"
+      "Peude estar en mas de un estado a la vez ",
+      "Tiene vacios y no puede estar mas de una vez en un estado a la vez", //
+      "No tiene vacíos y no puede estar en mas de aun estado a la vez",
+      "Tiene Vacios"
     ]
   }
   // {

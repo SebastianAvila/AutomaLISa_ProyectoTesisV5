@@ -17,7 +17,7 @@
     <div class="info_box">
         <div class="info-title"><span>Instrucciones </span></div>
         <div class="info-list">
-            <div class="info">1. Unicamente tienes <span>15 segundos</span> para contestar cada pregunta.</div>
+            <div class="info">1. Unicamente tienes <span>30 segundos</span> para contestar cada pregunta.</div>
             <div class="info">2. Una vez que seleccionas tu respuesta, no se puede deshacer.</div>
             <div class="info">3. No puede seleccionar ninguna opción una vez que se acaba el tiempo.</div>
             <div class="info">4. No puedes salir de la prueba mientras la realizas .</div>
@@ -35,7 +35,7 @@
             <div class="title"></div>
             <div class="timer">
                 <div class="time_left_txt">Tiempo Restante</div>
-                <div class="timer_sec">15</div>
+                <div class="timer_sec">30</div>
             </div>
             <div class="time_line"></div>
         </header>

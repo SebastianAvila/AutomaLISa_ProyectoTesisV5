@@ -13,14 +13,15 @@
              height: 500%;
          }
      }
+
+     .return{
+        right: 100;
+     }
  </style>
 
  <header id="header">
      <div id="headerContent">
-         <h1>Pruebas preguntas</h1>
-         <a href="MenuSeleccion">
-             <h1>Regresar al menu</h1>
-         </a>
+         <h1>Prueba de conocimiento sobre Autómatas Finitos <a href="MenuSeleccion" class="return">Regresar al menu</a></h1>
      </div>
  </header>
  <div id="content">

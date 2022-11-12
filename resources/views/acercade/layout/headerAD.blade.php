@@ -11,7 +11,6 @@
     <script src="https://kit.fontawesome.com/df8066961b.js" crossorigin="anonymous"></script>
     <!-- style css -->
     <link rel="stylesheet" href="assets/css/acercade-style.css">
-    Que
     <title>Menu</title>
 </head>
 

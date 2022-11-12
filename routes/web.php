@@ -149,23 +149,9 @@ if (View::exists('Ejercicios.ejemplosAFD.ejemplo4')) {
 // area de acerca de
 
 
-if (View::exists('acercade.agradecimientos')) {
-    Route::view('/agradecimientos', 'acercade.agradecimientos');
+if (View::exists('acercade.sobreAuto')) {
+    Route::view('/sobreAuto', 'acercade.sobreAuto');
 } else {
 
-    echo "La vista solicitada no exite agradecimientos";
-}
-
-if (View::exists('acercade.creditos')) {
-    Route::view('/creditos', 'acercade.creditos');
-} else {
-
-    echo "La vista solicitada no exite creditos";
-}
-
-if (View::exists('acercade.tecnologias')) {
-    Route::view('/tecnologias', 'acercade.tecnologias');
-} else {
-
-    echo "La vista solicitada no exite tecnologias ";
+    echo "La vista solicitada no exite sobreAuto";
 }

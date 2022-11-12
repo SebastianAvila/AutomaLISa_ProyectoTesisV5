@@ -76,10 +76,8 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="PreguntasPrueba">Preguntas</a></li>
-                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 1: Autómatas Finitos Determinisas </a></li>
-                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 2: Autómatas Finitos No Deterministas </a></li>
-                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba 3: Aceptación de Palabras </a></li>
+                <li><a class="dropdown-item" href="PreguntasPrueba">Prueba de conocimiento</a></li>
+                
                 </ul>
 
             </div>
@@ -93,9 +91,7 @@
                 </button>
 
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="creditos">Creditos</a></li>
-                    <li><a class="dropdown-item" href="agradecimientos">Agradecimientos</a></li>
-                    <li><a class="dropdown-item" href="tecnologias">Tecnologias utilizadas</a></li>
+                    <li><a class="dropdown-item" href="sobreAuto">Sobre AutomaLISa</a></li>
                 </ul>
 
             </div>
