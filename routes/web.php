@@ -76,7 +76,7 @@ if (View::exists('AutomatasFinitosRepaso.AceptacionPalabrasView')) {
     Route::view('/AceptacionPalabras', 'AutomatasFinitosRepaso.AceptacionPalabrasView');
 } else {
 
-    echo "La vista solicitada no exite Automatas Finitos No determinista";
+    echo "La vista solicitada no exite Automatas Finitos No determinista falla vista";
 }
 
 
