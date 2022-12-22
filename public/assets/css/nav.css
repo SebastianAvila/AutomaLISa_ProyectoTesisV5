@@ -11,7 +11,6 @@ body {
 }
 
 #content {
-    background: #E0DFD8 url(_default_side_bg.gif) repeat-y;
     width: 100%;
     position: relative;
     padding-bottom: 21px;
@@ -114,7 +113,7 @@ body {
 #siteNav .active:hover,
 #siteNav .active:focus {
     color: #fff;
-    background: #706F61 url(_default_current_page.gif) no-repeat 5px 50%
+    background: #706F61 
 }
 
 #siteNav ul ul .active,

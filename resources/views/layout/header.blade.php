@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/base.css" />
     <link rel="stylesheet" type="text/css" href=" assets/css/content.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <!-- Control carrusel pregunta AFN-AFD-AP -->
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 

@@ -122,7 +122,6 @@ h3 {
 
 /* Legacy: old iDevices */
 .iDevice_header {
-    background-image: url(icon_generic.gif);
     padding-left: 37px;
     margin-bottom: 1px;
     position: relative

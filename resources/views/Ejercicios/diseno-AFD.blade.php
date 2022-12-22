@@ -23,5 +23,4 @@
                         Bienvenido al area de ejercicios, aca podras encontrar el pasdos a paso del diseño de un autómata finito determinista 
                     </div>
 
-                    <script src="assets/js/main.js"></script>
                     @include('../layout/footer')
