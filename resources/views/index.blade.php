@@ -242,17 +242,7 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <!-- Javascript files-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery-3.0.0.min.js"></script>
-    <script src="assets/js/plugin.js"></script>
-    <!-- sidebar -->
-    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-    <!-- js animation css -->
+ <!-- js animation css -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
